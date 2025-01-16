@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+  }
+  
+  h1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  label, select, button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  #output {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #0078d7;
+  }
+  
