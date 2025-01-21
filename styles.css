@@ -1,26 +1,16 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 10px;
-  }
-  
-  h1 {
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  label, select, button {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    padding: 5px 10px;
-    cursor: pointer;
-  }
-  
-  #output {
-    margin-top: 10px;
-    font-weight: bold;
-    color: #0078d7;
-  }
-  
+#translation-box {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 10000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+#translation-box button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
